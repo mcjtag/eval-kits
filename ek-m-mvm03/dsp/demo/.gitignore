@@ -1,0 +1,11 @@
+*
+!*/
+!.gitignore
+!*.c
+!*.h
+!*.asm
+!*.dpj
+!*.ldf
+!*.dxe
+!*.ldr
+Debug/*
