@@ -1,0 +1,28 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port s_axi_aclk -pg 1 -y 230 -defaultsOSRD
+preplace port peripheral_aresetn -pg 1 -y 300 -defaultsOSRD
+preplace port S_AXI -pg 1 -y 210 -defaultsOSRD
+preplace port clk_ref_i -pg 1 -y 390 -defaultsOSRD
+preplace port DDR3 -pg 1 -y 350 -defaultsOSRD
+preplace port interconnect_aresetn -pg 1 -y 250 -defaultsOSRD
+preplace inst rst_mig_7series_0_100M -pg 1 -lvl 1 -y 110 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 3 -y 390 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 2 -y 280 -defaultsOSRD
+preplace netloc S_AXI_1 1 0 2 NJ 210 700
+preplace netloc mig_7series_0_mmcm_locked 1 0 4 20J 500 NJ 500 NJ 500 1610
+preplace netloc mig_7series_0_DDR3 1 3 1 NJ
+preplace netloc s_axi_aresetn_1 1 0 2 NJ 250 680
+preplace netloc microblaze_0_Clk 1 0 3 NJ 230 670 420 1120J
+preplace netloc mig_7series_0_ui_clk 1 0 4 0 310 660 510 NJ 510 1630
+preplace netloc rst_mig_7series_0_100M_peripheral_aresetn 1 1 2 690 430 NJ
+preplace netloc axi_interconnect_0_M00_AXI 1 2 1 1100
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 0 4 10J 490 NJ 490 NJ 490 1620
+preplace netloc clk_wiz_0_clk_200M 1 0 3 0J 410 NJ 410 1110J
+preplace netloc S00_ARESETN_1 1 0 3 NJ 300 700J 400 1100
+levelinfo -pg 1 -20 490 950 1480 1730 -top -320 -bot 800
+"
+}
+0

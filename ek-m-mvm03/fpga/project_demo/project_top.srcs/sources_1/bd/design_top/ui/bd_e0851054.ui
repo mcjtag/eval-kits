@@ -1,0 +1,144 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "PinnedBlocks":"",
+   "PinnedPorts":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port audio_i2s_bclk -pg 1 -y 130 -defaultsOSRD
+preplace port sys_clk_n -pg 1 -y 350 -defaultsOSRD
+preplace port link1_tx -pg 1 -y 580 -defaultsOSRD
+preplace port dsp_vadc_spi -pg 1 -y 560 -defaultsOSRD
+preplace port mdio -pg 1 -y 320 -defaultsOSRD
+preplace port dsp_bus_freq -pg 1 -y 620 -defaultsOSRD
+preplace port sys_clk_p -pg 1 -y 330 -defaultsOSRD
+preplace port rgmii -pg 1 -y 260 -defaultsOSRD
+preplace port gpio -pg 1 -y 1010 -defaultsOSRD
+preplace port link0_rx -pg 1 -y 460 -defaultsOSRD
+preplace port audio_i2s_dout -pg 1 -y 150 -defaultsOSRD
+preplace port mdc -pg 1 -y 300 -defaultsOSRD
+preplace port dsp_core_freq -pg 1 -y 600 -defaultsOSRD
+preplace port link1_rx -pg 1 -y 480 -defaultsOSRD
+preplace port dsp_reset -pg 1 -y 540 -defaultsOSRD
+preplace port audio_i2s_din -pg 1 -y 170 -defaultsOSRD
+preplace port audio_spi -pg 1 -y 70 -defaultsOSRD
+preplace port DDR3 -pg 1 -y 1190 -defaultsOSRD
+preplace port phy_rst -pg 1 -y 340 -defaultsOSRD
+preplace port audio_i2s_lrcin -pg 1 -y 90 -defaultsOSRD
+preplace port dsp_temp -pg 1 -y 520 -defaultsOSRD
+preplace port audio_i2s_lrcout -pg 1 -y 110 -defaultsOSRD
+preplace port link0_tx -pg 1 -y 500 -defaultsOSRD
+preplace port tft_spi -pg 1 -y 1340 -defaultsOSRD
+preplace portBus clk_gen1_oe -pg 1 -y 1730 -defaultsOSRD
+preplace portBus clk_gen0_oe -pg 1 -y 1710 -defaultsOSRD
+preplace portBus tft_gpi -pg 1 -y 220 -defaultsOSRD
+preplace portBus clk_gen0_sclk -pg 1 -y 1670 -defaultsOSRD
+preplace portBus uart_tx -pg 1 -y 1860 -defaultsOSRD
+preplace portBus clk_gen0_ss -pg 1 -y 1690 -defaultsOSRD
+preplace portBus bus_freq_div -pg 1 -y 890 -defaultsOSRD
+preplace portBus rdr_scl -pg 1 -y 1770 -defaultsOSRD
+preplace portBus clk_gen1_sclk -pg 1 -y 1750 -defaultsOSRD
+preplace portBus clk_gen1_ss -pg 1 -y 1650 -defaultsOSRD
+preplace portBus tft_gpo -pg 1 -y 1400 -defaultsOSRD
+preplace portBus led_fast -pg 1 -y 1540 -defaultsOSRD
+preplace portBus uart_rx -pg 1 -y 1860 -defaultsOSRD
+preplace portBus dsp_pll_divr -pg 1 -y 700 -defaultsOSRD
+preplace inst tft_hier -pg 1 -lvl 5 -y 1370 -defaultsOSRD
+preplace inst udp_bridge_hier -pg 1 -lvl 5 -y 300 -defaultsOSRD
+preplace inst mb_hier -pg 1 -lvl 3 -y 1380 -defaultsOSRD
+preplace inst clk_config_hier -pg 1 -lvl 5 -y 1710 -defaultsOSRD
+preplace inst axi_gpio_led -pg 1 -lvl 5 -y 1530 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 4 -y 1860 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -y 1750 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 5 -y 1860 -defaultsOSRD
+preplace inst axi_iic_gpio -pg 1 -lvl 5 -y 1030 -defaultsOSRD
+preplace inst dsp_hier -pg 1 -lvl 5 -y 610 -defaultsOSRD
+preplace inst nb3n502_0 -pg 1 -lvl 5 -y 890 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 3 -y 890 -defaultsOSRD
+preplace inst ddr3_hier -pg 1 -lvl 5 -y 1190 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -y 340 -defaultsOSRD
+preplace inst audio_hier -pg 1 -lvl 5 -y 120 -defaultsOSRD
+preplace inst gt_clock_0 -pg 1 -lvl 1 -y 340 -defaultsOSRD
+preplace netloc xlconstant_4_dout 1 5 1 NJ
+preplace netloc axi_interconnect_0_M08_AXI 1 3 2 820 1140 1210J
+preplace netloc clk_wiz_0_clk_300M90 1 2 3 NJ 340 NJ 340 1340
+preplace netloc eth_mac_0_rgmii 1 5 1 NJ
+preplace netloc axi_quad_spi_0_ip2intc_irpt 1 1 5 240 1950 NJ 1950 NJ 1950 NJ 1950 1690
+preplace netloc axi_interconnect_0_M07_AXI 1 3 2 820J 900 1230
+preplace netloc clk_wiz_0_clk_300M 1 2 3 NJ 320 NJ 320 1240
+preplace netloc mig_7series_0_DDR3 1 5 1 NJ
+preplace netloc util_vector_logic_0_Res 1 4 1 NJ
+preplace netloc clk_wiz_0_clk_10M 1 2 3 NJ 380 NJ 380 1250
+preplace netloc axi_quad_spi_0_SPI_0 1 5 1 NJ
+preplace netloc axi_quad_spi_1_ip2intc_irpt 1 1 5 250 1960 NJ 1960 NJ 1960 NJ 1960 1680
+preplace netloc axi_quad_spi_0_SPI_1 1 5 1 NJ
+preplace netloc dsp_hier_m_axis_link1 1 4 2 1360 810 1660
+preplace netloc xlconstant_3_dout 1 5 1 NJ
+preplace netloc axi_interconnect_0_M04_AXI 1 3 2 820J 550 1230
+preplace netloc axi_quad_spi_0_ip2intc_irpt1 1 1 5 260 10 NJ 10 NJ 10 N 10 1700
+preplace netloc axi_iic_0_IIC 1 5 1 NJ
+preplace netloc eth_mac_0_mdio 1 5 1 NJ
+preplace netloc dsp_hier_GPIO_0 1 5 1 NJ
+preplace netloc axi_interconnect_0_M12_AXI 1 3 2 830 70 N
+preplace netloc xlconcat_0_dout 1 2 1 480
+preplace netloc dsp_hier_GPIO_1 1 5 1 NJ
+preplace netloc axi_gpio_3_gpio_io_o 1 5 1 NJ
+preplace netloc clk_wiz_0_clk_200M 1 2 3 NJ 300 NJ 300 1220
+preplace netloc axi_gpio_2_ip2intc_irpt 1 1 5 270 1920 NJ 1920 NJ 1920 NJ 1920 1660
+preplace netloc axi_interconnect_0_M01_AXI 1 3 2 880J 880 1260
+preplace netloc interconnect_aresetn 1 2 3 490 1290 880 1170 NJ
+preplace netloc axi_interconnect_0_M02_AXI 1 3 2 NJ 790 1260
+preplace netloc link_port_0_link_tx 1 5 1 NJ
+preplace netloc xlconstant_5_dout 1 5 1 NJ
+preplace netloc eth_mac_0_mdc 1 5 1 NJ
+preplace netloc xlconstant_1_dout 1 5 1 NJ
+preplace netloc gt_clk_p_0_1 1 0 1 NJ
+preplace netloc audio_hier_audio_i2s_lrcout 1 5 1 NJ
+preplace netloc mb_hier_peripheral_aresetn 1 2 3 500 1460 850 1410 1290
+preplace netloc axi_iic_0_iic2intc_irpt 1 1 5 220 1930 NJ 1930 NJ 1930 NJ 1930 1670
+preplace netloc axi_interconnect_0_M05_AXI 1 3 2 850J 840 1310
+preplace netloc Op1_0_1 1 0 4 NJ 1860 NJ 1860 NJ 1860 NJ
+preplace netloc gt_clk_n_0_1 1 0 1 NJ
+preplace netloc axi_interconnect_0_M09_AXI 1 3 2 860J 850 1320
+preplace netloc axi_iic_1_iic2intc_irpt 1 1 5 230 1940 NJ 1940 NJ 1940 NJ 1940 1700
+preplace netloc microblaze_0_Clk 1 2 3 480 310 N 310 1280
+preplace netloc axi_quad_spi_1_SPI_0 1 5 1 NJ
+preplace netloc audio_i2s_din_0_1 1 0 5 NJ 170 NJ 170 NJ 170 NJ 170 N
+preplace netloc xlconstant_2_dout 1 5 1 NJ
+preplace netloc audio_hier_audio_i2s_lrcin 1 5 1 NJ
+preplace netloc link_port_1_link_tx 1 5 1 NJ
+preplace netloc Net 1 5 1 NJ
+preplace netloc clk_wiz_0_clk_75M 1 2 3 NJ 360 NJ 360 1330
+preplace netloc s_axis_link_1 1 4 2 1360 390 1690
+preplace netloc axi_interconnect_0_M10_AXI 1 3 2 890J 860 1350
+preplace netloc gt_clock_0_clkout 1 1 1 N
+preplace netloc axi_interconnect_0_M06_AXI 1 3 2 850J 890 1240
+preplace netloc clk_wiz_0_locked 1 2 1 470
+preplace netloc util_vector_logic_1_Res 1 5 1 NJ
+preplace netloc axi_interconnect_0_M14_AXI 1 3 2 870 110 N
+preplace netloc link_rx_0_1 1 0 5 NJ 460 NJ 460 NJ 460 NJ 460 NJ
+preplace netloc xlconstant_6_dout 1 5 1 NJ
+preplace netloc link_rx_0_2 1 0 5 NJ 480 NJ 480 NJ 480 900J 560 NJ
+preplace netloc udp_bridge_hier_m_axis_link 1 4 2 1360 400 1700
+preplace netloc audio_hier_audio_i2s_bclk 1 5 1 NJ
+preplace netloc axi_gpio_1_GPIO 1 5 1 NJ
+preplace netloc xlconstant_0_dout 1 5 1 NJ
+preplace netloc axi_iic_1_IIC 1 5 1 NJ
+preplace netloc axi_gpio_0_gpio_io_o 1 5 1 NJ
+preplace netloc microblaze_0_M_AXI_DC 1 3 2 830 1150 NJ
+preplace netloc audio_hier_audio_i2s_dout 1 5 1 NJ
+preplace netloc eth_mac_0_phy_rst 1 5 1 NJ
+preplace netloc axi_gpio_2_gpio_io_o 1 5 1 NJ
+preplace netloc gpio2_io_i_0_1 1 0 5 NJ 220 NJ 220 NJ 220 NJ 220 1300J
+preplace netloc axi_interconnect_0_M11_AXI 1 3 2 840 90 N
+preplace netloc S00_AXI_1 1 2 2 500 490 810
+preplace netloc axi_interconnect_0_M03_AXI 1 3 2 NJ 810 1270
+preplace netloc axi_interconnect_0_M00_AXI 1 3 2 900 870 NJ
+levelinfo -pg 1 0 120 370 660 1060 1510 1720 -top 0 -bot 1970
+"
+}
+{
+   "da_axi4_cnt":"18",
+   "da_board_cnt":"1",
+   "da_clkrst_cnt":"2",
+   "da_mb_cnt":"1"
+}

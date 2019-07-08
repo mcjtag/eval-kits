@@ -1,0 +1,46 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port M_AXI_DC -pg 1 -y 610 -defaultsOSRD
+preplace port M_AXI_PERIPH -pg 1 -y 230 -defaultsOSRD
+preplace port dcm_locked -pg 1 -y 380 -defaultsOSRD
+preplace port clk -pg 1 -y 290 -defaultsOSRD
+preplace portBus peripheral_aresetn -pg 1 -y 210 -defaultsOSRD
+preplace portBus interconnect_aresetn -pg 1 -y 340 -defaultsOSRD
+preplace portBus irq -pg 1 -y 640 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 2 -y 300 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 1 -y 220 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 3 -y 320 -defaultsOSRD
+preplace inst microblaze_0_xlconcat -pg 1 -lvl 1 -y 620 -defaultsOSRD
+preplace inst axi_timer_0 -pg 1 -lvl 2 -y 100 -defaultsOSRD
+preplace inst microblaze_0_axi_intc -pg 1 -lvl 2 -y 460 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 2 -y 650 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 3 -y 580 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 4 -y 510 -defaultsOSRD
+preplace netloc Conn1 1 1 4 420J 240 760J 200 NJ 200 1520J
+preplace netloc In2_1 1 0 1 N
+preplace netloc microblaze_0_mdm_axi 1 1 1 360
+preplace netloc xlconstant_2_dout 1 2 1 NJ
+preplace netloc SYS_Rst_1 1 3 1 1290
+preplace netloc microblaze_0_intr 1 1 1 410
+preplace netloc microblaze_0_Clk 1 0 4 10 20 390 740 760 490 1280
+preplace netloc microblaze_0_interrupt 1 2 1 730
+preplace netloc microblaze_0_intc_axi 1 1 1 400
+preplace netloc dcm_locked_1 1 0 3 10J 540 350J 570 740J
+preplace netloc proc_sys_reset_0_mb_reset 1 1 3 420 730 780J 670 1260
+preplace netloc microblaze_0_ilmb_1 1 3 1 1310
+preplace netloc microblaze_0_M_AXI_DC 1 3 2 NJ 610 NJ
+preplace netloc mdm_1_Interrupt 1 0 3 40 750 NJ 750 730
+preplace netloc microblaze_0_axi_dp 1 0 4 40 40 410J 210 NJ 210 1270
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 3 2 NJ 340 NJ
+preplace netloc mdm_1_Debug_SYS_Rst 1 2 1 750
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 0 5 30 30 380 230 770J 220 1280 210 N
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 1 1 370
+preplace netloc microblaze_0_dlmb_1 1 3 1 1300
+preplace netloc microblaze_0_debug 1 2 1 770
+preplace netloc axi_timer_0_interrupt 1 0 3 20 10 420J 220 740
+levelinfo -pg 1 -10 200 580 1020 1420 1540 -top -10 -bot 760
+"
+}
+0
