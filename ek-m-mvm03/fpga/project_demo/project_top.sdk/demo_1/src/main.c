@@ -15,8 +15,6 @@
 #include "drv/led.h"
 #include "usr/dsp_mon.h"
 
-#include "audio_test.h"
-
 #include "logo.h"
 
 void startup_logo(void);
