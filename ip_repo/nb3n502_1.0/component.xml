@@ -883,62 +883,6 @@
       <xilinx:coreRevision>4</xilinx:coreRevision>
       <xilinx:coreCreationDateTime>2019-04-03T12:56:30Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@5317fb2b_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@775fea15_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@21dc16e0_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@7c737a2a_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@51ebdb20_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@45955d85_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@3480f422_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@6db5653f_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@20e6e10b_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@8149a25_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@629175dc_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@6d70109e_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d668a4d_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@26966825_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@7b73a67c_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@33e8c0b5_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@73acf736_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@442a18b9_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@5f6919e8_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@52e999b6_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@6598f42f_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@23bbc8b5_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@60e0fcdb_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@138ee21f_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@5c7e0bc6_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@43d81a45_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@3bab0bfb_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@38baf2e1_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@73627450_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@4578c74a_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@55a88657_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@107626b0_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@19e6f191_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@74a4f6af_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@9d2f13_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@102c5a3b_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@4e073369_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@19b2f139_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@255e1c9c_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@7d9832e6_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@8864eda_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@30084832_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@6cb92780_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@4cfacf49_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@2224f965_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@29100016_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@17d256fe_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@209ae0e7_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@2fda8330_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@5da8671c_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@c95454e_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@68910f43_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@73db80f3_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@7387575c_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@361efb20_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@28d91a9b_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/nb3n502_1.0</xilinx:tag>
       </xilinx:tags>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>

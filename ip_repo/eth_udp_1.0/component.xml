@@ -333,7 +333,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>2e3bb37a</spirit:value>
+            <spirit:value>499b8b57</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -352,7 +352,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>2e3bb37a</spirit:value>
+            <spirit:value>499b8b57</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -880,7 +880,7 @@
       <spirit:file>
         <spirit:name>hdl/eth_udp_v1_0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_206da5da</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_974341cb</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -1044,85 +1044,15 @@
         <xilinx:taxonomy>/Communication_&amp;_Networking/Ethernet</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>UDP/IP Stack</xilinx:displayName>
-      <xilinx:coreRevision>36</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2019-06-27T14:26:13Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>37</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2019-07-09T11:30:06Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@657c3297_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d8407cb_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@77562309_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@6b59ea43_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@52ed6213_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@389d3442_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@3150c819_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@372c847d_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@1c8f9345_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@40ba1c31_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e88a16_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@3d8f05a3_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@29e58924_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@3a767a1f_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@22e34b5d_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@1f7f3144_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@d434852_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@b711325_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@179e70e5_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@65ae6a3a_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@38cc1561_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@5e98c952_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@4de4b003_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@424ba2c1_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@6ea65c94_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@4b6c9b7b_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@4afc3996_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@678946f_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@3906234a_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@13966721_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@1eb50c01_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@5667f00e_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@52e825a1_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@434fbe9f_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@556e7447_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@6ec27ec1_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@1cd8764e_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@70976fbb_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@648b65a3_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d85e012_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@5f829364_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@32c96e7e_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@cb4bb39_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@6e6a9eb0_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@6302269d_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@496a525b_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@7165c74c_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@38a5ff7f_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@5047e7e3_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@4750170b_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@75fe7da1_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@1c34e007_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@22c7a6a6_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@5c083e07_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@c9959e5_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@13bb8930_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@5a27fbbd_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@58bed3ef_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@225815fb_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@226e896e_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@111ceda_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@5f3c402a_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@2daa6258_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@583fa435_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@6747e832_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@18e37133_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@6c1fdc25_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@7b10b70a_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@2eb10e18_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@6b715a2e_ARCHIVE_LOCATION">d:/projects/eval-kits/ip_repo/eth_udp_1.0</xilinx:tag>
       </xilinx:tags>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2018.3</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="75fc2996"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="34b6ae85"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="b3f73bad"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="4eed24f7"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="ee458418"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="3c4e58b8"/>
