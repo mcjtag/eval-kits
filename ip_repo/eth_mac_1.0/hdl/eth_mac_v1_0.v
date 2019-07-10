@@ -107,14 +107,17 @@ assign mdio = 1'b0;
 
 /* Delay */
 genvar i;
+wire del_rdy;
 
 generate if (USE_DELAY_CTRL) begin
 	(* IODELAY_GROUP = DELAY_GROUP *)
 	IDELAYCTRL idelayctrl_inst (
 		.REFCLK(delay_clk),
 		.RST(~aresetn),
-		.RDY()
+		.RDY(del_rdy)
 	);
+end else begin
+	assign del_rdy = 1'b1;
 end endgenerate
 
 generate for (i = 0; i < 4; i = i + 1) begin : RXD_DELAY
@@ -162,7 +165,7 @@ eth_mac_1g_rgmii #(
 ) eth_mac_1g_rgmii_inst (
 	.gtx_clk(gtx_clk),
 	.gtx_clk90(gtx_clk90),
-	.gtx_rst(gtx_rst),
+	.gtx_rst(gtx_rst & ~del_rdy),
 	.rx_clk(rx_clk),
 	.rx_rst(rx_rst),
 	.tx_clk(tx_clk),
