@@ -181,9 +181,8 @@ always @(posedge axis_udp_aclk) begin
 			if (CONFIG_ENABLE) begin
 				config_data <= {SUBNET_MASK, GATEWAY_IP, SOURCE_IP, LOCAL_MAC};
 				config_tvalid <= 1'b1;
-			end else begin
-				config_done <= 1'b1;
 			end
+			config_done <= 1'b1;
 		end else begin
 			config_data <= 0;
 			config_tvalid <= 1'b0;
