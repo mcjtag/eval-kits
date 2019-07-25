@@ -319,7 +319,7 @@ static ERROR_CODE GetCodes(int *pnManCode, int *pnDevCode, unsigned long ulAddr)
  */
 static ERROR_CODE GetSectorNumber(unsigned long ulAddr, int *pnSector)
 {
-	*pnSector = ulAddr % AFP_SECTOR_SIZE;
+	*pnSector = ulAddr / AFP_SECTOR_SIZE;
 	
 	return NO_ERR;
 }
