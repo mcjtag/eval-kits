@@ -1,0 +1,107 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port clk_ref -pg 1 -y 960 -defaultsOSRD
+preplace port sys_clk_n -pg 1 -y 320 -defaultsOSRD
+preplace port mdio -pg 1 -y 590 -defaultsOSRD
+preplace port sys_clk_p -pg 1 -y 300 -defaultsOSRD
+preplace port rgmii -pg 1 -y 530 -defaultsOSRD
+preplace port glclk -pg 1 -y 1140 -defaultsOSRD
+preplace port link0_rx -pg 1 -y 970 -defaultsOSRD
+preplace port mdc -pg 1 -y 570 -defaultsOSRD
+preplace port link1_rx -pg 1 -y 990 -defaultsOSRD
+preplace port hmc1031 -pg 1 -y 740 -defaultsOSRD
+preplace port DDR3 -pg 1 -y 120 -defaultsOSRD
+preplace port dsp_reset_all -pg 1 -y 1000 -defaultsOSRD
+preplace port phy_rst -pg 1 -y 610 -defaultsOSRD
+preplace port tft_lcd -pg 1 -y 230 -defaultsOSRD
+preplace port ad9520 -pg 1 -y 900 -defaultsOSRD
+preplace port tft_lcd_pwm -pg 1 -y 350 -defaultsOSRD
+preplace portBus dsp_irq1 -pg 1 -y 1040 -defaultsOSRD
+preplace portBus dsp_dmar0 -pg 1 -y 1060 -defaultsOSRD
+preplace portBus usr_sw -pg 1 -y 950 -defaultsOSRD
+preplace portBus dsp_dmar1 -pg 1 -y 1080 -defaultsOSRD
+preplace portBus dsp_reset -pg 1 -y 980 -defaultsOSRD
+preplace portBus dsp_coh_a -pg 1 -y 1100 -defaultsOSRD
+preplace portBus led -pg 1 -y 1200 -defaultsOSRD
+preplace portBus dsp1_boot -pg 1 -y 1210 -defaultsOSRD
+preplace portBus dsp0_boot -pg 1 -y 1190 -defaultsOSRD
+preplace portBus dsp_coh_b -pg 1 -y 1120 -defaultsOSRD
+preplace portBus dsp_irq0 -pg 1 -y 1020 -defaultsOSRD
+preplace inst axi_tft_0 -pg 1 -lvl 4 -y 400 -defaultsOSRD
+preplace inst udp_bridge_hier -pg 1 -lvl 5 -y 570 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 5 -y 1200 -defaultsOSRD
+preplace inst mb_hier -pg 1 -lvl 2 -y 470 -defaultsOSRD
+preplace inst axi_gpio_sw -pg 1 -lvl 4 -y 780 -defaultsOSRD
+preplace inst sysclk_hier -pg 1 -lvl 1 -y 310 -defaultsOSRD
+preplace inst axi_timer_0 -pg 1 -lvl 5 -y 340 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 1 -y 500 -defaultsOSRD
+preplace inst dsp_hier -pg 1 -lvl 4 -y 1070 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 3 -y 610 -defaultsOSRD
+preplace inst ad9520_0 -pg 1 -lvl 5 -y 900 -defaultsOSRD
+preplace inst hmc1031_0 -pg 1 -lvl 5 -y 740 -defaultsOSRD
+preplace inst ddr3_hier -pg 1 -lvl 5 -y 120 -defaultsOSRD
+preplace netloc hmc1031_0_HMC1031 1 5 1 NJ
+preplace netloc dsp_ioctl_0_dsp_dmar0 1 4 2 NJ 1060 NJ
+preplace netloc dsp_ioctl_0_dsp_irq1 1 4 2 NJ 1040 NJ
+preplace netloc dsp_ioctl_0_dsp_dmar1 1 4 2 NJ 1080 NJ
+preplace netloc eth_mac_0_phy_rst 1 5 1 NJ
+preplace netloc sysclk_hier_clk_50M 1 1 3 250J 330 NJ 330 930
+preplace netloc sysclk_hier_clk_12_5M 1 1 3 230J 300 NJ 300 1000
+preplace netloc probe_in0_0_1 1 0 5 NJ 950 NJ 950 NJ 950 970J 870 1400
+preplace netloc axi_tft_0_VGA_INTF 1 4 2 1450J 230 NJ
+preplace netloc link1_rx_1 1 0 4 NJ 990 NJ 990 NJ 990 NJ
+preplace netloc probe_in0_0_2 1 0 4 NJ 1190 NJ 1190 NJ 1190 NJ
+preplace netloc sysclk_hier_clk_10M 1 1 3 220J 320 NJ 320 1060
+preplace netloc clk_wiz_1_clk_125M 1 1 4 NJ 250 NJ 250 950 530 1450
+preplace netloc sys_clk_p_1 1 0 1 NJ
+preplace netloc microblaze_0_Clk 1 1 4 200 290 560 290 1040 280 1490
+preplace netloc axi_interconnect_0_M02_AXI 1 3 1 990
+preplace netloc S02_AXI_1 1 4 1 1430
+preplace netloc probe_in1_0_2 1 0 4 NJ 1210 NJ 1210 NJ 1210 NJ
+preplace netloc axi_timer_0_pwm0 1 5 1 NJ
+preplace netloc ARESETN_1 1 2 3 570 240 1020 160 NJ
+preplace netloc proc_sys_reset_1_peripheral_aresetn 1 2 3 590 310 1010 520 1460
+preplace netloc ddr3_hier_DDR3_0 1 5 1 NJ
+preplace netloc dsp_ioctl_0_dsp_resetn_all 1 4 2 NJ 1000 NJ
+preplace netloc syncron_0_gl_clk 1 4 2 NJ 1140 NJ
+preplace netloc clk_wiz_1_clk_125M90 1 1 4 180J 260 NJ 260 NJ 260 1480
+preplace netloc sys_clk_n_1 1 0 1 NJ
+preplace netloc axi_interconnect_0_M07_AXI 1 3 1 940
+preplace netloc syncron_0_csync 1 4 1 1480
+preplace netloc axi_tft_0_ip2intc_irpt 1 0 5 -60 170 NJ 170 NJ 170 NJ 170 1400
+preplace netloc ad9520_0_ad9520 1 5 1 NJ
+preplace netloc axi_interconnect_0_M04_AXI 1 3 2 NJ 610 1410
+preplace netloc axi_interconnect_0_M08_AXI 1 3 1 970
+preplace netloc xlconstant_0_dout 1 5 1 NJ
+preplace netloc xlconcat_0_dout 1 1 1 250
+preplace netloc S00_AXI_1 1 2 3 550 60 NJ 60 NJ
+preplace netloc s_axis_link_1 1 4 2 1510 450 1780
+preplace netloc dsp_ioctl_0_dsp_resetn 1 4 2 1400J 1030 1810J
+preplace netloc clk_wiz_1_locked 1 1 4 240 280 NJ 280 1010J 270 1470
+preplace netloc clk_wiz_1_clk_200M 1 1 4 190J 270 NJ 270 960 250 1500
+preplace netloc S00_AXI_2 1 2 1 580
+preplace netloc axi_interconnect_0_M00_AXI 1 3 1 940
+preplace netloc axi_interconnect_0_M05_AXI 1 3 1 1030
+preplace netloc sysclk_hier_clk_ref 1 1 5 210J 230 NJ 230 NJ 230 1420J 1010 1800J
+preplace netloc eth_mac_0_mdio 1 5 1 NJ
+preplace netloc eth_mac_0_mdc 1 5 1 NJ
+preplace netloc axi_interconnect_0_M01_AXI 1 3 2 1050 290 NJ
+preplace netloc dsp_hier_dma_irq 1 0 5 -50 1270 NJ 1270 NJ 1270 NJ 1270 1400
+preplace netloc dsp_ioctl_0_dsp_ddca 1 4 2 NJ 1100 NJ
+preplace netloc axi_interconnect_0_M06_AXI 1 3 1 980
+preplace netloc axi_tft_0_M_AXI_MM 1 4 1 1410
+preplace netloc link0_rx_1 1 0 4 NJ 970 NJ 970 NJ 970 NJ
+preplace netloc dsp_ioctl_0_dsp_ddcb 1 4 2 NJ 1120 NJ
+preplace netloc eth_mac_0_rgmii 1 5 1 NJ
+preplace netloc axi_interconnect_0_M03_AXI 1 3 2 NJ 590 1440
+preplace netloc dsp_ioctl_0_dsp_irq0 1 4 2 NJ 1020 NJ
+preplace netloc axi_timer_0_interrupt 1 0 6 -60 1260 NJ 1260 NJ 1260 NJ 1260 NJ 1260 1790
+levelinfo -pg 1 -80 70 400 780 1250 1650 1830 -top 0 -bot 1280
+"
+}
+{
+   "da_axi4_cnt":"10",
+   "da_mb_cnt":"1"
+}

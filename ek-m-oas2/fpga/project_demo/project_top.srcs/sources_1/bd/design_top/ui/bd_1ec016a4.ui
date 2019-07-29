@@ -1,0 +1,32 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port clk_ref -pg 1 -y 220 -defaultsOSRD
+preplace port clk_10M -pg 1 -y 150 -defaultsOSRD
+preplace port sys_clk_n -pg 1 -y 100 -defaultsOSRD
+preplace port clk_100M -pg 1 -y 40 -defaultsOSRD
+preplace port sys_clk_p -pg 1 -y 80 -defaultsOSRD
+preplace port clk_50M -pg 1 -y 170 -defaultsOSRD
+preplace port locked -pg 1 -y 130 -defaultsOSRD
+preplace port clk_125M90 -pg 1 -y 70 -defaultsOSRD
+preplace port clk_12_5M -pg 1 -y 190 -defaultsOSRD
+preplace port clk_200M -pg 1 -y 110 -defaultsOSRD
+preplace port clk_125M -pg 1 -y 90 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 2 -y 90 -defaultsOSRD
+preplace inst gt_clock_0 -pg 1 -lvl 1 -y 90 -defaultsOSRD
+preplace netloc clk_wiz_1_clk_12_5M 1 2 1 430
+preplace netloc gt_clock_0_clkout 1 1 2 220 220 N
+preplace netloc clk_wiz_1_clk_10M 1 2 1 450
+preplace netloc clk_wiz_1_clk_125M 1 2 1 470J
+preplace netloc microblaze_0_Clk 1 2 1 480J
+preplace netloc sys_clk_p_1 1 0 1 NJ
+preplace netloc clk_wiz_1_clk_125M90 1 2 1 460J
+preplace netloc sys_clk_n_1 1 0 1 NJ
+preplace netloc clk_wiz_1_clk_50M 1 2 1 440
+preplace netloc clk_wiz_1_locked 1 2 1 470J
+preplace netloc clk_wiz_1_clk_200M 1 2 1 460J
+levelinfo -pg 1 0 120 330 500 -top -40 -bot 240
+"
+}
+0
