@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding='ISO-8859-1'?>
+<visualdsp-project schema="17" name="demo_1" file="demo_1.dpj" version="1">
+	<!-- Project build target -->
+	<target>
+		<processor revision="Automatic">ADSP-TS201</processor>
+		<extension>.ldr</extension>
+		<type>Loader file</type>
+	</target>
+	<!-- Configurations -->
+	<configurations active="Debug">
+		<configuration name="Debug">
+			<intermediate-dir>.\Debug</intermediate-dir>
+			<output-dir>.\Debug</output-dir>
+			<changed-property-page-flags>0</changed-property-page-flags>
+			<tools>
+				<tool type="Compiler">
+					<option><![CDATA[|-Version>5.0|-O>0|-O1>0|-Ov>100|-ipa>0|-g>1|-no-annotate>0|-save-temps -path-output>0|-ED>0|-no-auto-attrs>0|-no-builtin>0|-no-extra-keywords>0|-enum-is-int>0|-no-fp-associative>0|-structs-do-not-overlap>1|-implicit-pointers>0|-eh >0|-rtti>1|-check-init-order>0|-ignore-std>0|-const-read-write>0|-const-strings>0|-no-multiline>1|-misra>0|-misra-strict>0|-misra-no-cross-module>0|-misra-no-runtime>0|-misra-testing>0|-misra-suppress-advisory>0|-D>__CPU_1967VC3__|-I>src, src/adc, src/periph, src/system, src/utils, src/lib, src/lib/1967VC3, src/lib/1967VC3/hal/inc, src/lib/1967VC3/utils/inc, src/lib/adc/5101HB015/inc|-no-std-inc>0|-char-size-32>1|-char-size-any>0|-double-size-32>1|-double-size-any>0|-fp-div-lib>0|-no-fp-minmax>0|-pguide>0|NOSWITCH>0|-flags-compiler --diag_warning,implicit_func_decl>0|-warn-protos>1|-flags-compiler --diag_warning,call_not_inlined>0|-Wremarks>0|-w>0]]></option>
+				</tool>
+				<tool type="Assembler">
+					<option><![CDATA[|-Version>4.5|-v>0|-g>1|-l>0|-save-temps>0|-sp>0|-i>src, src/adc, src/periph, src/system, src/utils, src/lib, src/lib/1967VC3, src/lib/1967VC3/hal/inc, src/lib/1967VC3/utils/inc, src/lib/adc/5101HB015/inc]]></option>
+				</tool>
+				<tool type="Linker">
+					<option><![CDATA[|-Version>5.0|-flags-link -t>0|-flags-link -S>0|-flags-link -s>0|-mem>0|-flags-link -warnonce>0|-map>0|-flags-link -xref>0|-flags-link -save-temps>0|-flags-link -ip>0|-flags-link -e>0|-flags-link -ev>0|-flags-link -MD__ADI_LIBEH__>0|-add-debug-libpaths>1]]></option>
+				</tool>
+				<tool type="Archiver">
+					<option><![CDATA[]]></option>
+				</tool>
+				<tool type="Loader">
+					<option><![CDATA[|-Version>4.5|-bPROM>1|-fBINARY>1|-p>0x0|-t>32765|-v>0|-NoKernel>0|-id0exe=>0: Debug\demo_1.dxe|-id1exe=>1: |-id2exe=>2: |-id3exe=>3: |-id4exe=>4: |-id5exe=>5: |-id6exe=>6: |-id7exe=>7: |-l>..\bootloader_prom.dxe|UserKernel>1]]></option>
+				</tool>
+				<tool type="Splitter">
+					<option><![CDATA[|-Version>5.0|-pm>1|-dm>0|-64>0|s>0|-ram>1|-norom>0|-f s3>1|-r> 32|-u>0]]></option>
+				</tool>
+				<tool type="VdkGen">
+					<option><![CDATA[]]></option>
+				</tool>
+			</tools>
+		</configuration>
+		<configuration name="Release">
+			<intermediate-dir>.\Release</intermediate-dir>
+			<output-dir>.\Release</output-dir>
+			<changed-property-page-flags>0</changed-property-page-flags>
+			<tools>
+				<tool type="Compiler">
+					<option><![CDATA[]]></option>
+				</tool>
+				<tool type="Assembler">
+					<option><![CDATA[]]></option>
+				</tool>
+				<tool type="Linker">
+					<option><![CDATA[]]></option>
+				</tool>
+				<tool type="Archiver">
+					<option><![CDATA[]]></option>
+				</tool>
+				<tool type="Loader">
+					<option><![CDATA[]]></option>
+				</tool>
+				<tool type="Splitter">
+					<option><![CDATA[]]></option>
+				</tool>
+				<tool type="VdkGen">
+					<option><![CDATA[]]></option>
+				</tool>
+			</tools>
+		</configuration>
+	</configurations>
+	<!-- Project folders -->
+	<folders>
+		<folder name="Header Files" ext=".h,.hpp,.hxx">
+			<folders>
+				<folder name="adc">
+					<files>
+						<file name=".\src\adc\ada.h">
+						</file>
+						<file name=".\src\adc\adc.h">
+						</file>
+					</files>
+				</folder>
+				<folder name="lib">
+					<files>
+						<file name=".\src\lib\compilers.h">
+						</file>
+					</files>
+					<folders>
+						<folder name="1967VC3">
+							<files>
+								<file name=".\src\lib\1967VC3\cpu.h">
+								</file>
+								<file name=".\src\lib\1967VC3\def1967VC3.h">
+								</file>
+								<file name=".\src\lib\1967VC3\hal.h">
+								</file>
+								<file name=".\src\lib\1967VC3\stdint.h">
+								</file>
+							</files>
+							<folders>
+								<folder name="hal">
+									<files>
+										<file name=".\src\lib\1967VC3\hal\inc\hal_ddc.h">
+										</file>
+										<file name=".\src\lib\1967VC3\hal\inc\hal_dma.h">
+										</file>
+										<file name=".\src\lib\1967VC3\hal\inc\hal_i2s.h">
+										</file>
+										<file name=".\src\lib\1967VC3\hal\inc\hal_lcd.h">
+										</file>
+										<file name=".\src\lib\1967VC3\hal\inc\hal_lvds_dac_adc.h">
+										</file>
+										<file name=".\src\lib\1967VC3\hal\inc\hal_mpu.h">
+										</file>
+										<file name=".\src\lib\1967VC3\hal\inc\hal_pll.h">
+										</file>
+										<file name=".\src\lib\1967VC3\hal\inc\hal_spi.h">
+										</file>
+										<file name=".\src\lib\1967VC3\hal\inc\hal_typedef.h">
+										</file>
+										<file name=".\src\lib\1967VC3\hal\inc\hal_uart_dma.h">
+										</file>
+										<file name=".\src\lib\1967VC3\hal\inc\hal_uart_hw.h">
+										</file>
+									</files>
+								</folder>
+								<folder name="utils">
+									<files>
+										<file name=".\src\lib\1967VC3\utils\inc\com_utils.h">
+										</file>
+										<file name=".\src\lib\1967VC3\utils\inc\com_utils_asm.h">
+										</file>
+										<file name=".\src\lib\1967VC3\utils\inc\core_utils.h">
+										</file>
+										<file name=".\src\lib\1967VC3\utils\inc\core_utils_asm.h">
+										</file>
+									</files>
+								</folder>
+							</folders>
+						</folder>
+						<folder name="ADC">
+							<folders>
+								<folder name="5101HB015">
+									<files>
+										<file name=".\src\lib\ADC\5101HB015\inc\5101HB015.h">
+										</file>
+										<file name=".\src\lib\ADC\5101HB015\inc\5101HB015_SPI_1967VC3.h">
+										</file>
+									</files>
+								</folder>
+							</folders>
+						</folder>
+					</folders>
+				</folder>
+				<folder name="periph">
+					<files>
+						<file name=".\src\periph\dmar.h">
+						</file>
+						<file name=".\src\periph\link.h">
+						</file>
+					</files>
+				</folder>
+				<folder name="system">
+					<files>
+						<file name=".\src\system\cpu_defs.h">
+						</file>
+						<file name=".\src\system\enumerator.h">
+						</file>
+						<file name=".\src\system\init.h">
+						</file>
+					</files>
+				</folder>
+				<folder name="utils">
+					<files>
+						<file name=".\src\utils\assert.h">
+						</file>
+						<file name=".\src\utils\mem_test.h">
+						</file>
+						<file name=".\src\utils\memtest.h">
+						</file>
+						<file name=".\src\utils\signal_metric.h">
+						</file>
+						<file name=".\src\utils\tcb.h">
+						</file>
+						<file name=".\src\utils\window_bh.h">
+						</file>
+					</files>
+				</folder>
+			</folders>
+		</folder>
+		<folder name="Linker Files" ext=".ldf,.dlb">
+			<files>
+				<file name=".\1967vc3.ldf">
+					<file-configurations>
+						<file-configuration name="Debug">
+							<excluded-flag value="no"/>
+							<build-with-flag value="project"/>
+							<intermediate-dir>.\Debug</intermediate-dir>
+							<output-dir>.\Debug</output-dir>
+						</file-configuration>
+						<file-configuration name="Release">
+							<excluded-flag value="no"/>
+							<build-with-flag value="project"/>
+							<intermediate-dir>.\Release</intermediate-dir>
+							<output-dir>.\Release</output-dir>
+						</file-configuration>
+					</file-configurations>
+				</file>
+			</files>
+		</folder>
+		<folder name="Source Files" ext=".c,.cpp,.cxx,.asm,.dsp,.s">
+			<files>
+				<file name=".\src\main.c">
+					<file-configurations>
+						<file-configuration name="Debug">
+							<excluded-flag value="no"/>
+							<build-with-flag value="project"/>
+							<intermediate-dir>.\Debug</intermediate-dir>
+							<output-dir>.\Debug</output-dir>
+						</file-configuration>
+						<file-configuration name="Release">
+							<excluded-flag value="no"/>
+							<build-with-flag value="project"/>
+							<intermediate-dir>.\Release</intermediate-dir>
+							<output-dir>.\Release</output-dir>
+						</file-configuration>
+					</file-configurations>
+				</file>
+			</files>
+			<folders>
+				<folder name="adc">
+					<files>
+						<file name=".\src\adc\adc.c">
+							<file-configurations>
+								<file-configuration name="Debug">
+									<excluded-flag value="no"/>
+									<build-with-flag value="project"/>
+									<intermediate-dir>.\Debug</intermediate-dir>
+									<output-dir>.\Debug</output-dir>
+								</file-configuration>
+								<file-configuration name="Release">
+									<excluded-flag value="no"/>
+									<build-with-flag value="project"/>
+									<intermediate-dir>.\Release</intermediate-dir>
+									<output-dir>.\Release</output-dir>
+								</file-configuration>
+							</file-configurations>
+						</file>
+					</files>
+				</folder>
+				<folder name="lib">
+					<folders>
+						<folder name="1967VC3">
+							<folders>
+								<folder name="hal">
+									<files>
+										<file name=".\src\lib\1967VC3\hal\src\hal_ddc.c">
+											<file-configurations>
+												<file-configuration name="Debug">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Debug</intermediate-dir>
+													<output-dir>.\Debug</output-dir>
+												</file-configuration>
+												<file-configuration name="Release">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Release</intermediate-dir>
+													<output-dir>.\Release</output-dir>
+												</file-configuration>
+											</file-configurations>
+										</file>
+										<file name=".\src\lib\1967VC3\hal\src\hal_dma.c">
+											<file-configurations>
+												<file-configuration name="Debug">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Debug</intermediate-dir>
+													<output-dir>.\Debug</output-dir>
+												</file-configuration>
+												<file-configuration name="Release">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Release</intermediate-dir>
+													<output-dir>.\Release</output-dir>
+												</file-configuration>
+											</file-configurations>
+										</file>
+										<file name=".\src\lib\1967VC3\hal\src\hal_lcd.c">
+											<file-configurations>
+												<file-configuration name="Debug">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Debug</intermediate-dir>
+													<output-dir>.\Debug</output-dir>
+												</file-configuration>
+												<file-configuration name="Release">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Release</intermediate-dir>
+													<output-dir>.\Release</output-dir>
+												</file-configuration>
+											</file-configurations>
+										</file>
+										<file name=".\src\lib\1967VC3\hal\src\hal_lvds_dac_adc.c">
+											<file-configurations>
+												<file-configuration name="Debug">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Debug</intermediate-dir>
+													<output-dir>.\Debug</output-dir>
+												</file-configuration>
+												<file-configuration name="Release">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Release</intermediate-dir>
+													<output-dir>.\Release</output-dir>
+												</file-configuration>
+											</file-configurations>
+										</file>
+										<file name=".\src\lib\1967VC3\hal\src\hal_mpu.c">
+											<file-configurations>
+												<file-configuration name="Debug">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Debug</intermediate-dir>
+													<output-dir>.\Debug</output-dir>
+												</file-configuration>
+												<file-configuration name="Release">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Release</intermediate-dir>
+													<output-dir>.\Release</output-dir>
+												</file-configuration>
+											</file-configurations>
+										</file>
+										<file name=".\src\lib\1967VC3\hal\src\hal_pll.c">
+											<file-configurations>
+												<file-configuration name="Debug">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Debug</intermediate-dir>
+													<output-dir>.\Debug</output-dir>
+												</file-configuration>
+												<file-configuration name="Release">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Release</intermediate-dir>
+													<output-dir>.\Release</output-dir>
+												</file-configuration>
+											</file-configurations>
+										</file>
+										<file name=".\src\lib\1967VC3\hal\src\hal_spi.c">
+											<file-configurations>
+												<file-configuration name="Debug">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Debug</intermediate-dir>
+													<output-dir>.\Debug</output-dir>
+												</file-configuration>
+												<file-configuration name="Release">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Release</intermediate-dir>
+													<output-dir>.\Release</output-dir>
+												</file-configuration>
+											</file-configurations>
+										</file>
+										<file name=".\src\lib\1967VC3\hal\src\hal_uart_dma.c">
+											<file-configurations>
+												<file-configuration name="Debug">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Debug</intermediate-dir>
+													<output-dir>.\Debug</output-dir>
+												</file-configuration>
+												<file-configuration name="Release">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Release</intermediate-dir>
+													<output-dir>.\Release</output-dir>
+												</file-configuration>
+											</file-configurations>
+										</file>
+										<file name=".\src\lib\1967VC3\hal\src\hal_uart_hw.c">
+											<file-configurations>
+												<file-configuration name="Debug">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Debug</intermediate-dir>
+													<output-dir>.\Debug</output-dir>
+												</file-configuration>
+												<file-configuration name="Release">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Release</intermediate-dir>
+													<output-dir>.\Release</output-dir>
+												</file-configuration>
+											</file-configurations>
+										</file>
+									</files>
+								</folder>
+								<folder name="utils">
+									<files>
+										<file name=".\src\lib\1967VC3\utils\src\com_utils.asm">
+											<file-configurations>
+												<file-configuration name="Debug">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Debug</intermediate-dir>
+													<output-dir>.\Debug</output-dir>
+												</file-configuration>
+												<file-configuration name="Release">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Release</intermediate-dir>
+													<output-dir>.\Release</output-dir>
+												</file-configuration>
+											</file-configurations>
+										</file>
+										<file name=".\src\lib\1967VC3\utils\src\core_utils.asm">
+											<file-configurations>
+												<file-configuration name="Debug">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Debug</intermediate-dir>
+													<output-dir>.\Debug</output-dir>
+												</file-configuration>
+												<file-configuration name="Release">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Release</intermediate-dir>
+													<output-dir>.\Release</output-dir>
+												</file-configuration>
+											</file-configurations>
+										</file>
+									</files>
+								</folder>
+							</folders>
+						</folder>
+						<folder name="ADC">
+							<folders>
+								<folder name="5101HB015">
+									<files>
+										<file name=".\src\lib\ADC\5101HB015\src\5101HB015.c">
+											<file-configurations>
+												<file-configuration name="Debug">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Debug</intermediate-dir>
+													<output-dir>.\Debug</output-dir>
+												</file-configuration>
+												<file-configuration name="Release">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Release</intermediate-dir>
+													<output-dir>.\Release</output-dir>
+												</file-configuration>
+											</file-configurations>
+										</file>
+										<file name=".\src\lib\ADC\5101HB015\src\5101HB015_SPI_1967VC3.c">
+											<file-configurations>
+												<file-configuration name="Debug">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Debug</intermediate-dir>
+													<output-dir>.\Debug</output-dir>
+												</file-configuration>
+												<file-configuration name="Release">
+													<excluded-flag value="no"/>
+													<build-with-flag value="project"/>
+													<intermediate-dir>.\Release</intermediate-dir>
+													<output-dir>.\Release</output-dir>
+												</file-configuration>
+											</file-configurations>
+										</file>
+									</files>
+								</folder>
+							</folders>
+						</folder>
+					</folders>
+				</folder>
+				<folder name="periph">
+					<files>
+						<file name=".\src\periph\dmar.c">
+							<file-configurations>
+								<file-configuration name="Debug">
+									<excluded-flag value="no"/>
+									<build-with-flag value="project"/>
+									<intermediate-dir>.\Debug</intermediate-dir>
+									<output-dir>.\Debug</output-dir>
+								</file-configuration>
+								<file-configuration name="Release">
+									<excluded-flag value="no"/>
+									<build-with-flag value="project"/>
+									<intermediate-dir>.\Release</intermediate-dir>
+									<output-dir>.\Release</output-dir>
+								</file-configuration>
+							</file-configurations>
+						</file>
+						<file name=".\src\periph\link.c">
+							<file-configurations>
+								<file-configuration name="Debug">
+									<excluded-flag value="no"/>
+									<build-with-flag value="project"/>
+									<intermediate-dir>.\Debug</intermediate-dir>
+									<output-dir>.\Debug</output-dir>
+								</file-configuration>
+								<file-configuration name="Release">
+									<excluded-flag value="no"/>
+									<build-with-flag value="project"/>
+									<intermediate-dir>.\Release</intermediate-dir>
+									<output-dir>.\Release</output-dir>
+								</file-configuration>
+							</file-configurations>
+						</file>
+					</files>
+				</folder>
+				<folder name="system">
+					<files>
+						<file name=".\src\system\enumerator.c">
+							<file-configurations>
+								<file-configuration name="Debug">
+									<excluded-flag value="no"/>
+									<build-with-flag value="project"/>
+									<intermediate-dir>.\Debug</intermediate-dir>
+									<output-dir>.\Debug</output-dir>
+								</file-configuration>
+								<file-configuration name="Release">
+									<excluded-flag value="no"/>
+									<build-with-flag value="project"/>
+									<intermediate-dir>.\Release</intermediate-dir>
+									<output-dir>.\Release</output-dir>
+								</file-configuration>
+							</file-configurations>
+						</file>
+						<file name=".\src\system\init.c">
+							<file-configurations>
+								<file-configuration name="Debug">
+									<excluded-flag value="no"/>
+									<build-with-flag value="project"/>
+									<intermediate-dir>.\Debug</intermediate-dir>
+									<output-dir>.\Debug</output-dir>
+								</file-configuration>
+								<file-configuration name="Release">
+									<excluded-flag value="no"/>
+									<build-with-flag value="project"/>
+									<intermediate-dir>.\Release</intermediate-dir>
+									<output-dir>.\Release</output-dir>
+								</file-configuration>
+							</file-configurations>
+						</file>
+					</files>
+				</folder>
+				<folder name="utils">
+					<files>
+						<file name=".\src\utils\mem_test.asm">
+							<file-configurations>
+								<file-configuration name="Debug">
+									<excluded-flag value="no"/>
+									<build-with-flag value="project"/>
+									<intermediate-dir>.\Debug</intermediate-dir>
+									<output-dir>.\Debug</output-dir>
+								</file-configuration>
+								<file-configuration name="Release">
+									<excluded-flag value="no"/>
+									<build-with-flag value="project"/>
+									<intermediate-dir>.\Release</intermediate-dir>
+									<output-dir>.\Release</output-dir>
+								</file-configuration>
+							</file-configurations>
+						</file>
+						<file name=".\src\utils\memtest.c">
+							<file-configurations>
+								<file-configuration name="Debug">
+									<excluded-flag value="no"/>
+									<build-with-flag value="project"/>
+									<intermediate-dir>.\Debug</intermediate-dir>
+									<output-dir>.\Debug</output-dir>
+								</file-configuration>
+								<file-configuration name="Release">
+									<excluded-flag value="no"/>
+									<build-with-flag value="project"/>
+									<intermediate-dir>.\Release</intermediate-dir>
+									<output-dir>.\Release</output-dir>
+								</file-configuration>
+							</file-configurations>
+						</file>
+						<file name=".\src\utils\signal_metric.c">
+							<file-configurations>
+								<file-configuration name="Debug">
+									<excluded-flag value="no"/>
+									<build-with-flag value="project"/>
+									<intermediate-dir>.\Debug</intermediate-dir>
+									<output-dir>.\Debug</output-dir>
+								</file-configuration>
+								<file-configuration name="Release">
+									<excluded-flag value="no"/>
+									<build-with-flag value="project"/>
+									<intermediate-dir>.\Release</intermediate-dir>
+									<output-dir>.\Release</output-dir>
+								</file-configuration>
+							</file-configurations>
+						</file>
+						<file name=".\src\utils\window_bh.c">
+							<file-configurations>
+								<file-configuration name="Debug">
+									<excluded-flag value="no"/>
+									<build-with-flag value="project"/>
+									<intermediate-dir>.\Debug</intermediate-dir>
+									<output-dir>.\Debug</output-dir>
+								</file-configuration>
+								<file-configuration name="Release">
+									<excluded-flag value="no"/>
+									<build-with-flag value="project"/>
+									<intermediate-dir>.\Release</intermediate-dir>
+									<output-dir>.\Release</output-dir>
+								</file-configuration>
+							</file-configurations>
+						</file>
+					</files>
+				</folder>
+			</folders>
+		</folder>
+	</folders>
+	<!-- System Builder Components -->
+	<system-builder-component-tables>
+		<system-builder-plugin name="">
+			<system-builder-component name="Select Processor">
+				<property name="Processor family"><![CDATA[Blackfin]]></property>
+			</system-builder-component>
+		</system-builder-plugin>
+		<system-builder-plugin name="Standard application">
+			<system-builder-component name="Application Settings">
+				<property name="Add comments"><![CDATA[True]]></property>
+				<property name="Add source code"><![CDATA[True]]></property>
+				<property name="Include arguments"><![CDATA[False]]></property>
+				<property name="Output type"><![CDATA[Executable file]]></property>
+				<property name="Source language"><![CDATA[C]]></property>
+			</system-builder-component>
+		</system-builder-plugin>
+		<system-builder-plugin name="Startup Code Wizard" version="2.0">
+			<system-builder-component name="Welcome">
+				<property name="Enabled"><![CDATA[True]]></property>
+			</system-builder-component>
+		</system-builder-plugin>
+	</system-builder-component-tables>
+</visualdsp-project>
