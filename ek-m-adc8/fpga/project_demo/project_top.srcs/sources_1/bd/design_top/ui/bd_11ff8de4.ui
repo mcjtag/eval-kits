@@ -1,0 +1,44 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port M_AXI_DC -pg 1 -y 260 -defaultsOSRD
+preplace port M_AXI_PERIPH -pg 1 -y 780 -defaultsOSRD
+preplace port dcm_locked -pg 1 -y 480 -defaultsOSRD
+preplace port clk -pg 1 -y 300 -defaultsOSRD
+preplace portBus peripheral_aresetn -pg 1 -y 660 -defaultsOSRD
+preplace portBus intr -pg 1 -y 390 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 5 -y 630 -defaultsOSRD
+preplace inst rst_microblaze_0_clk_wiz_1_100M -pg 1 -lvl 6 -y 620 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 4 -y 750 -defaultsOSRD
+preplace inst axi_timer_0 -pg 1 -lvl 2 -y 610 -defaultsOSRD
+preplace inst microblaze_0_xlconcat -pg 1 -lvl 1 -y 370 -defaultsOSRD
+preplace inst microblaze_0_axi_intc -pg 1 -lvl 2 -y 360 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 5 -y 370 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 3 -y 390 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 4 -y 340 -defaultsOSRD
+preplace netloc Conn1 1 3 4 1230J 250 NJ 250 NJ 250 2290J
+preplace netloc Conn2 1 4 3 NJ 780 NJ 780 NJ
+preplace netloc microblaze_0_mdm_axi 1 4 1 1580
+preplace netloc microblaze_0_intr 1 1 1 NJ
+preplace netloc In2_0_1 1 0 1 N
+preplace netloc microblaze_0_Clk 1 0 6 0J 290 420 250 700 250 1220 240 1590 290 1930J
+preplace netloc microblaze_0_intc_axi 1 1 4 450 470 720J 500 NJ 500 1560
+preplace netloc microblaze_0_interrupt 1 2 1 N
+preplace netloc microblaze_0_ilmb_1 1 3 1 1240
+preplace netloc mdm_1_Interrupt 1 0 6 10J 210 NJ 210 NJ 210 NJ 210 NJ 210 1920
+preplace netloc microblaze_0_axi_dp 1 3 1 1210
+preplace netloc rst_microblaze_0_clk_wiz_1_100M_bus_struct_reset 1 3 4 1250 450 NJ 450 NJ 450 2270
+preplace netloc rst_microblaze_0_clk_wiz_1_100M_mb_reset 1 1 6 440 240 710 230 NJ 230 NJ 230 NJ 230 2280
+preplace netloc xlconstant_0_dout 1 5 1 1930
+preplace netloc rst_microblaze_0_clk_wiz_1_100M_peripheral_aresetn 1 1 6 430 500 710J 510 1200 510 1590 510 N 510 2290
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 1 4 450 480 NJ 480 NJ 480 1570
+preplace netloc microblaze_0_dlmb_1 1 3 1 1210
+preplace netloc microblaze_0_clk_wiz_1_locked 1 0 6 NJ 480 410J 490 NJ 490 NJ 490 NJ 490 1910J
+preplace netloc microblaze_0_debug 1 2 4 720 220 NJ 220 NJ 220 1910
+preplace netloc mdm_1_debug_sys_rst 1 5 1 1920
+preplace netloc axi_timer_0_interrupt 1 0 3 10 720 NJ 720 710
+levelinfo -pg 1 -20 310 580 960 1410 1760 2100 2310 -top -110 -bot 1000
+"
+}
+0

@@ -1,0 +1,30 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port tft_clk -pg 1 -y 150 -defaultsOSRD
+preplace port S_AXI_PWM -pg 1 -y 250 -defaultsOSRD
+preplace port pwm_intr -pg 1 -y 330 -defaultsOSRD
+preplace port M_AXI_TFT -pg 1 -y 70 -defaultsOSRD
+preplace port tft_intr -pg 1 -y 130 -defaultsOSRD
+preplace port aclk -pg 1 -y 70 -defaultsOSRD
+preplace port tft_lcd -pg 1 -y 90 -defaultsOSRD
+preplace port S_AXI_TFT -pg 1 -y 50 -defaultsOSRD
+preplace port tft_lcd_pwm -pg 1 -y 310 -defaultsOSRD
+preplace port aresetn -pg 1 -y 270 -defaultsOSRD
+preplace inst axi_tft -pg 1 -lvl 1 -y 100 -defaultsOSRD
+preplace inst axi_timer_pwm -pg 1 -lvl 1 -y 300 -defaultsOSRD
+preplace netloc axi_tft_VGA_INTF 1 1 1 NJ
+preplace netloc sysclk_hier_clk_10M 1 0 1 NJ
+preplace netloc microblaze_0_Clk 1 0 1 20
+preplace netloc mb_hier_peripheral_aresetn 1 0 1 30
+preplace netloc axi_timer_pwm_pwm0 1 1 1 NJ
+preplace netloc periph_interconnect_M01_AXI 1 0 1 NJ
+preplace netloc axi_tft_M_AXI_MM 1 1 1 NJ
+preplace netloc periph_interconnect_M00_AXI 1 0 1 NJ
+preplace netloc axi_timer_pwm_interrupt 1 1 1 NJ
+preplace netloc axi_tft_ip2intc_irpt 1 1 1 NJ
+levelinfo -pg 1 0 160 310 -top -10 -bot 410
+"
+}
+

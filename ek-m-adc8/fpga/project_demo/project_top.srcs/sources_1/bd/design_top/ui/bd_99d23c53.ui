@@ -1,0 +1,27 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port s_axi_aclk -pg 1 -y 220 -defaultsOSRD
+preplace port clk_in -pg 1 -y 340 -defaultsOSRD
+preplace port glclk -pg 1 -y 340 -defaultsOSRD
+preplace port S_AXI -pg 1 -y 60 -defaultsOSRD
+preplace port hmc1031 -pg 1 -y 80 -defaultsOSRD
+preplace port s_axi_aresetn -pg 1 -y 100 -defaultsOSRD
+preplace port hmc1033 -pg 1 -y 220 -defaultsOSRD
+preplace port S_AXI1 -pg 1 -y 200 -defaultsOSRD
+preplace inst hmc1033_0 -pg 1 -lvl 1 -y 220 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -y 340 -defaultsOSRD
+preplace inst hmc1031_0 -pg 1 -lvl 1 -y 80 -defaultsOSRD
+preplace netloc hmc1031_0_HMC1031 1 1 1 NJ
+preplace netloc hmc1033_0_hmc1033 1 1 1 NJ
+preplace netloc periph_interconnect_hier_M02_AXI 1 0 1 NJ
+preplace netloc clk_wiz_0_clk_5M 1 1 1 NJ
+preplace netloc clk_in1_1 1 0 1 N
+preplace netloc microblaze_0_Clk 1 0 1 30
+preplace netloc mb_hier_peripheral_aresetn 1 0 1 20
+preplace netloc periph_interconnect_hier_M03_AXI 1 0 1 NJ
+levelinfo -pg 1 0 150 290 -top 0 -bot 400
+"
+}
+0
