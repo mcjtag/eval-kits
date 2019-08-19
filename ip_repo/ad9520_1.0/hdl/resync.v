@@ -105,7 +105,7 @@ xpm_cdc_handshake #(
     .src_clk(clk),
     .src_in(sync_in),
     .src_send(src_send),
-    .src_rcv(),
+    .src_rcv(src_rcv),
     .dest_clk(sync_clk),
     .dest_req(dest_req),
     .dest_ack(1'b0),

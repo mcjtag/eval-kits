@@ -171,7 +171,7 @@ assign spi_data_in = reg_spidr;
 assign spi_data_wr = spi_data_wr_r;
 assign spi_data_rd = spi_data_rd_r;
 
-always @(S_AXI_ACLK) begin
+always @(posedge S_AXI_ACLK) begin
     if (S_AXI_ARESETN == 1'b0) begin
         reg_iosr <= 0;
         reg_spisr <= 0;
