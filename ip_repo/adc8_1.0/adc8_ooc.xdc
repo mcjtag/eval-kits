@@ -1,0 +1,10 @@
+set_false_path -to [get_pins adc_if_inst_0/adc_cdc_inst/DATA[*].RAM32X1D_DAT/SP/I]
+set_false_path -to [get_pins adc_if_inst_1/adc_cdc_inst/DATA[*].RAM32X1D_DAT/SP/I]
+set_false_path -to [get_pins adc_if_inst_2/adc_cdc_inst/DATA[*].RAM32X1D_DAT/SP/I]
+set_false_path -to [get_pins adc_if_inst_3/adc_cdc_inst/DATA[*].RAM32X1D_DAT/SP/I]
+set_false_path -to [get_pins adc_if_inst_4/adc_cdc_inst/DATA[*].RAM32X1D_DAT/SP/I]
+set_false_path -to [get_pins adc_if_inst_5/adc_cdc_inst/DATA[*].RAM32X1D_DAT/SP/I]
+set_false_path -to [get_pins adc_if_inst_6/adc_cdc_inst/DATA[*].RAM32X1D_DAT/SP/I]
+set_false_path -to [get_pins adc_if_inst_7/adc_cdc_inst/DATA[*].RAM32X1D_DAT/SP/I]
+
+set_false_path -from [get_pins adc8_v1_0_S_AXI_inst/reg_acr_reg[24]/C]

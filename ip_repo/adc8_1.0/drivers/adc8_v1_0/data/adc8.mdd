@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER adc8
+	OPTION supported_peripherals = (adc8);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = adc8;
+END DRIVER
