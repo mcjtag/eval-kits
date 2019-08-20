@@ -160,6 +160,7 @@ int main()
 	adc8_adc_if_reset(&adc8, 1);
 	adc8_dst_esync(&adc8, 1);			/* Use external sync */
 	adc8_dst_reset(&adc8, 1);			/* Reset ADC8 clock buffer */
+	adc8_adc_out_enable(&adc8, 0);
 	timer_delay(&sys_tmr, 100);
 	adc8_dst_reset(&adc8, 0);
 	timer_delay(&sys_tmr, 100);
@@ -177,11 +178,9 @@ int main()
 	adc8_adc_calibrate(&adc8);			/* Start calibration */
 	timer_delay(&sys_tmr, 300);
 	tft_printf(&tft, "done\n\n");
+	adc8_adc_out_enable(&adc8, 0);
+	timer_delay(&sys_tmr, 100);
 	tft_printf(&tft, "Calibrate IO...       ");
-	timer_delay(&sys_tmr, 1);
-	adc8_adc_if_reset(&adc8, 0);
-	adc8_adc_if_reset(&adc8, 1);
-	timer_delay(&sys_tmr, 1);
 	adc8_adc_if_reset(&adc8, 0);
 	timer_delay(&sys_tmr, 100);
 	for (;;) {							/* ADC receivers calibration */
