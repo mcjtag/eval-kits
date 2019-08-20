@@ -87,7 +87,7 @@ always @(posedge clk) begin
 			sdi <= 1'b0;
 			sck <= {1'b0, ctrl_oen};
 			sdo <= {1'b0, ctrl_cal};
-			ncs <= {1'b1, 8'h00};
+			ncs <= {1'b1, 8'hFF};
 			ovf <= adc_spi_sdi;
 		end
 		4'h1: begin // ADC_SPI_0

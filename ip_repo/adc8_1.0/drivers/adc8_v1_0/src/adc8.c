@@ -240,7 +240,10 @@ void adc8_adc_out_enable(adc8_dev_t *dev, int state)
  */
 void adc8_adc_calibrate(adc8_dev_t *dev)
 {
+	ioctl(dev->baseaddr, REG_ACR_OFFSET, REG_ACR_CAL_MSK, 0);
+	for (int i = 0; i < 1000; i++);
 	ioctl(dev->baseaddr, REG_ACR_OFFSET, REG_ACR_CAL_MSK, 1);
+	for (int i = 0; i < 1000; i++);
 	ioctl(dev->baseaddr, REG_ACR_OFFSET, REG_ACR_CAL_MSK, 0);
 }
 
