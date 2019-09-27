@@ -49,6 +49,9 @@
 * В SDK выполнить: File > New > Board Support Package... > (Project name = bsp_standalone) > Finish
 * После завершения сборки BSP импортировать проект приложения 'microblaze': File > Open Project from File System...
 * Выбрать необходимый проект и дождаться окончания сборки
+* Связать microblaze и приложение: 'Tools'->'Associate ELF Files...'
+* Выбрать собранное приложение с расширением '.elf' в 'Design Sources' и нажать Ok
+* Повторить процедуру bitstream generation
 
 ### Программирование
 
