@@ -28,6 +28,7 @@
 
 ## /firmware
 
+* /firmware/demo_1/fpga_demo_1.bit
 * /firmware/demo_1/fpga_demo_1.mcs
 * /firmware/demo_1/dsp_demo_1.ldr
 
