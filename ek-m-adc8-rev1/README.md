@@ -6,6 +6,7 @@
 
 * /docs
 * /fpga
+* /firmware (CD)
 
 ## /docs
 Документация на отладочную плату
@@ -17,6 +18,12 @@
 Проекты для FPGA
 
 * /fpga/project_demo - демонстрационный проект FPGA   
+
+## /firmware (CD)
+Поставляется на диске вместе с отладочный платой
+
+* /firmware/demo_1/fpga_demo_1.bit
+* /firmware/demo_1/fpga_demo_1.mcs
 
 ### Требования
 * Vivado версии не ниже 2018.3
@@ -35,3 +42,19 @@
 * В SDK выполнить: File > New > Board Support Package... > (Project name = bsp_standalone) > Finish
 * После завершения сборки BSP импортировать проект приложения 'microblaze': File > Open Project from File System...
 * Выбрать необходимый проект и дождаться окончания сборки
+* Связать microblaze и приложение: 'Tools'->'Associate ELF Files...'
+* Выбрать собранное приложение с расширением '.elf' в 'Design Sources' и нажать Ok
+* Повторить процедуру bitstream generation
+
+### Программирование
+
+#### FPGA
+Для программирования flash-памяти необходимо использовать: Vivado Lab (>=2018.3).
+Файл конфигурации: `/firmware/demo_x/fpga_demo_x.mcs` (где `x` - номер демо-программы).
+* Запустить 'Vivado Lab';
+* Выбрать 'Open Hardware Manager';
+* Выбрать 'Open target' -> 'Auto Connect';
+* Выполнить 'Tools' -> 'Add Configuration Memory Device' -> 'xc7a200t_x';
+* Выбрать микросхему памяти: `s25fl512s-spi-x1_x2_x4`;
+* В поле 'Configuration file' задать путь для файла конфигурации;
+* Нажать 'OK' и дождаться окончания программирования;
