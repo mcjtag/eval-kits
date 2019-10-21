@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="llvm.win32.dxe.debug.606209974">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="llvm.win32.dxe.debug.606209974" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="llvm.toolchain.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="dxe" artifactName="${ProjName}" buildArtefactType="dsp1967.toolchain.llvm.buildArtefactType.dxe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=dsp1967.toolchain.llvm.buildArtefactType.dxe" cleanCommand="&quot;${eclipse_home}toolchain\Bin\rm&quot; -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;" id="llvm.win32.dxe.debug.606209974" name="Debug" parent="llvm.win32.dxe.debug">
+					<folderInfo id="llvm.win32.dxe.debug.606209974." name="/" resourcePath="">
+						<toolChain id="llvm.toolchain.dxe.debug.1439000047" name="Milandr DSP1967 LLVM Cross C/C++" superClass="llvm.toolchain.dxe.debug">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="llvm.toolchain.win32.targetplatform.debug.1594903927" isAbstract="false" name="LLVM Target Platform" osList="win32" superClass="llvm.toolchain.win32.targetplatform.debug"/>
+							<builder buildPath="${workspace_loc:/demo_cm}/Debug" id="llvm.toolchain.win32.builder.debug.2102097158" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Milandr LLVM Cross C/C++ Builder" superClass="llvm.toolchain.win32.builder.debug"/>
+							<tool id="llvm.toolchain.assembler.debug.1281648377" name="Assembler" superClass="llvm.toolchain.assembler.debug">
+								<inputType id="llvm.toolchain.assembler.inp.1942060014" name="Assembler Input" superClass="llvm.toolchain.assembler.inp"/>
+							</tool>
+							<tool id="llvm.toolchain.compiler.cnature.debug.440107449" name="Compiler" superClass="llvm.toolchain.compiler.cnature.debug">
+								<inputType id="llvm.toolchain.compiler.inp.2066260366" name="Compiler Input" superClass="llvm.toolchain.compiler.inp"/>
+								<inputType id="llvm.inputType1.1974525995" name="CI CPP" superClass="llvm.inputType1"/>
+							</tool>
+							<tool id="llvm.toolchain.compiler.ccnature.debug.1992804832" name="Compiler" superClass="llvm.toolchain.compiler.ccnature.debug"/>
+							<tool id="llvm.toolchain.linker.cnature.debug.1772585662" name="Linker" superClass="llvm.toolchain.linker.cnature.debug">
+								<inputType id="llvm.toolchain.linker.inp.1502916346" name="Linker Input" superClass="llvm.toolchain.linker.inp">
+									<additionalInput kind="additionaldependency" paths="$(USER_OBJS)"/>
+								</inputType>
+							</tool>
+							<tool id="llvm.toolchain.linker.ccnature.debug.709826277" name="Linker" superClass="llvm.toolchain.linker.ccnature.debug"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="llvm.win32.dxe.release.1004538350">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="llvm.win32.dxe.release.1004538350" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="llvm.toolchain.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="dxe" artifactName="${ProjName}" buildArtefactType="dsp1967.toolchain.llvm.buildArtefactType.dxe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=dsp1967.toolchain.llvm.buildArtefactType.dxe" cleanCommand="&quot;${eclipse_home}toolchain\Bin\rm&quot; -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;" id="llvm.win32.dxe.release.1004538350" name="Release" parent="llvm.win32.dxe.release">
+					<folderInfo id="llvm.win32.dxe.release.1004538350." name="/" resourcePath="">
+						<toolChain id="llvm.toolchain.dxe.release.804960720" name="Milandr DSP1967 LLVM Cross C/C++" superClass="llvm.toolchain.dxe.release">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="llvm.toolchain.win32.targetplatform.base.2062921949" isAbstract="false" name="LLVM Target Platform" osList="win32" superClass="llvm.toolchain.win32.targetplatform.base"/>
+							<builder buildPath="${workspace_loc:/demo_cm}/Release" id="llvm.toolchain.win32.builder.base.1222423705" managedBuildOn="true" name="Milandr LLVM Cross C/C++ Builder.Release" superClass="llvm.toolchain.win32.builder.base"/>
+							<tool id="llvm.toolchain.assembler.release.917113221" name="Assembler" superClass="llvm.toolchain.assembler.release">
+								<inputType id="llvm.toolchain.assembler.inp.1176746899" name="Assembler Input" superClass="llvm.toolchain.assembler.inp"/>
+							</tool>
+							<tool id="llvm.toolchain.compiler.cnature.release.1188108288" name="Compiler" superClass="llvm.toolchain.compiler.cnature.release">
+								<inputType id="llvm.toolchain.compiler.inp.1607363854" name="Compiler Input" superClass="llvm.toolchain.compiler.inp"/>
+								<inputType id="llvm.inputType1.1516129397" name="CI CPP" superClass="llvm.inputType1"/>
+							</tool>
+							<tool id="llvm.toolchain.compiler.ccnature.release.1768870941" name="Compiler" superClass="llvm.toolchain.compiler.ccnature.release"/>
+							<tool id="llvm.toolchain.linker.cnature.release.892946690" name="Linker" superClass="llvm.toolchain.linker.cnature.release">
+								<inputType id="llvm.toolchain.linker.inp.1377126805" name="Linker Input" superClass="llvm.toolchain.linker.inp">
+									<additionalInput kind="additionaldependency" paths="$(USER_OBJS)"/>
+								</inputType>
+							</tool>
+							<tool id="llvm.toolchain.linker.ccnature.release.870114547" name="Linker" superClass="llvm.toolchain.linker.ccnature.release"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="demo_cm.llvm.win32.exe.658194760" name="Milandr executable project" projectType="llvm.win32.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="DeviceConfiguration">
+		<selected-cpu full-name="Milandr 1967 / 1967VN028 / 1967VN028 Rev.2"/>
+	</storageModule>
+</cproject>

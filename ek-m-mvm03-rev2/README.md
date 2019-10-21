@@ -17,7 +17,8 @@
 
 Проекты для DSP
 
-* /dsp/demo - демонстрационный проект DSP
+* /dsp/demo - демонстрационный проект DSP (VisualDSP++)
+* /dsp/demo_cm - демонстрационный проект DSP (CM-Lynx)
 
 ## /fpga
 
