@@ -1,17 +1,13 @@
 # Readme
 
-Программное обеспечение для отладочной платы МВМ-03 (Rev.2).
+Программное обеспечение для отладочной платы МВМ-03 (Rev. 2)
 
 ## Список ресурсов
 
-* /docs
 * /dsp
 * /fpga
-* /firmware (CD)
-
-## /docs
-
-* /docs/ek-m-mvm03_ug.pdf - руководство
+* /docs (release)
+* /firmware (release)
 
 ## /dsp
 
@@ -26,8 +22,11 @@
 
 * /fpga/project_demo - демонстрационный проект FPGA
 
-## /firmware (CD)
-Поставляется на диске вместе с отладочный платой
+## /docs (release)
+
+* /docs/ek-m-mvm03_ug.pdf - краткое руководство
+
+## /firmware (release)
 
 * /firmware/demo_1/fpga_demo_1.bit
 * /firmware/demo_1/fpga_demo_1.mcs

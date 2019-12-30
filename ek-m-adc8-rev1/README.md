@@ -1,17 +1,12 @@
 # Readme
 
-## Программное обеспечение для отладочной платы АЦП8.  
+Программное обеспечение для отладочной платы АЦП8 (Rev. 1)  
 
 ## Список ресурсов
 
-* /docs
 * /fpga
-* /firmware (CD)
-
-## /docs
-Документация на отладочную плату
-
-* /docs/ek-m-adc8_ug.pdf - руководство
+* /docs (release)
+* /firmware (release)
 
 ## /fpga
 
@@ -19,8 +14,11 @@
 
 * /fpga/project_demo - демонстрационный проект FPGA   
 
-## /firmware (CD)
-Поставляется на диске вместе с отладочный платой
+## /docs (release)
+
+* /docs/ek-m-adc8_ug.pdf - краткое руководство
+
+## /firmware (release)
 
 * /firmware/demo_1/fpga_demo_1.bit
 * /firmware/demo_1/fpga_demo_1.mcs

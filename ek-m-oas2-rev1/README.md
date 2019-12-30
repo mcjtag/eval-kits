@@ -1,18 +1,13 @@
 # Readme
 
-## Программное обеспечение для отладочной платы ОАС x2.
+Программное обеспечение для отладочной платы ОАС x2 (Rev. 1)
 
 ## Список ресурсов
 
-* /docs
 * /dsp
 * /fpga
-* /firmware
-
-## /docs
-Документация на отладочную плату
-
-* /docs/ek-m-oas2_ug.pdf - руководство
+* /docs (release)
+* /firmware (release)
 
 ## /dsp
 
@@ -26,7 +21,11 @@
 
 * /fpga/project_demo - демонстрационный проект FPGA
 
-## /firmware
+## /docs (release)
+
+* /docs/ek-m-oas2_ug.pdf - краткое руководство
+
+## /firmware (release)
 
 * /firmware/demo_1/fpga_demo_1.bit
 * /firmware/demo_1/fpga_demo_1.mcs
