@@ -15,3 +15,4 @@
 * hmc1033 - контроллер синтезатора HMC1033
 * adc8 - контроллер микросборки АЦП8
 * adc8_tcb - контроллер TCB (Transaction Block Control) АЦП8
+* usb_bridge - AXI-Stream <-> USB HS мост
